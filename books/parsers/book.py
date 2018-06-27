@@ -1,12 +1,23 @@
 #for a given book, get info
 from books.locators.book_attributes_locator import BookAttributesLocator
 import re
+
+RATING_MAP={
+    'One':1,
+    'Two':2,
+    'Three':3,
+    'Four':4,
+    'Five':5
+}
+
+
+
 class BookParser:
     def __init__(self,parent):
         self.parent = parent
 
     def __repr__(self):
-        return """Title: {0}\nRating: {1}\nStock: {2}\nPrice:{3}\n""".format(self.title, self.rating, self.availability, self.price)
+        return """Title: {0}\nRating: {1}\nStock: {2}\nPrice: {3}\n""".format(self.title, self.rating, self.availability, self.price)
     @property
     def title(self):
         locator = BookAttributesLocator.TITLE_LOCATOR
@@ -25,7 +36,7 @@ class BookParser:
         locator = BookAttributesLocator.RATING_LOCATOR
         #need to parse out correct string
         rating_element = self.parent.select_one(locator).attrs['class']
-        return rating_element[1]
+        return RATING_MAP[rating_element[1]]
 
     @property
     def image(self):
