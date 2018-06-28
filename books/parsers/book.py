@@ -29,7 +29,7 @@ class BookParser:
         #get rid of pound sign?
         patt = '[0-9]+\.[0-9]+'
         match = re.search(patt,self.parent.select_one(locator).string)
-        return float(match[0])
+        return match.group(0)
 
     @property
     def rating(self):
