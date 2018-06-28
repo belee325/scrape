@@ -1,0 +1,212 @@
+28-06-2018 12:20:35 INFO     [app.py : 13] Loading books list...
+28-06-2018 12:20:39 INFO     [app.py : 18] loading from database
+28-06-2018 12:21:11 INFO     [app.py : 13] Loading books list...
+28-06-2018 12:21:12 INFO     [app.py : 21] scraping website
+28-06-2018 12:21:12 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-1.html HTTP/1.1" 200 None
+28-06-2018 12:21:13 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:13 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:13 DEBUG    [book_page.py : 20] Finding total number of pages available
+28-06-2018 12:21:13 DEBUG    [book_page.py : 23] Found page count: 
+            
+                Page 1 of 50
+            
+            
+28-06-2018 12:21:13 DEBUG    [book_page.py : 25] Extracted page count 50
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-2.html HTTP/1.1" 200 None
+28-06-2018 12:21:13 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:13 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-3.html HTTP/1.1" 200 None
+28-06-2018 12:21:13 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:13 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:13 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-4.html HTTP/1.1" 200 None
+28-06-2018 12:21:14 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:14 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-5.html HTTP/1.1" 200 None
+28-06-2018 12:21:14 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:14 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-6.html HTTP/1.1" 200 None
+28-06-2018 12:21:14 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:14 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:14 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-7.html HTTP/1.1" 200 None
+28-06-2018 12:21:15 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:15 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-8.html HTTP/1.1" 200 None
+28-06-2018 12:21:15 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:15 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-9.html HTTP/1.1" 200 None
+28-06-2018 12:21:15 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:15 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:15 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-10.html HTTP/1.1" 200 None
+28-06-2018 12:21:16 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:16 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-11.html HTTP/1.1" 200 None
+28-06-2018 12:21:16 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:16 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-12.html HTTP/1.1" 200 None
+28-06-2018 12:21:16 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:16 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-13.html HTTP/1.1" 200 None
+28-06-2018 12:21:16 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:16 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:16 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-14.html HTTP/1.1" 200 None
+28-06-2018 12:21:17 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:17 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-15.html HTTP/1.1" 200 None
+28-06-2018 12:21:17 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:17 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-16.html HTTP/1.1" 200 None
+28-06-2018 12:21:17 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:17 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:17 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-17.html HTTP/1.1" 200 None
+28-06-2018 12:21:18 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:18 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-18.html HTTP/1.1" 200 None
+28-06-2018 12:21:18 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:18 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-19.html HTTP/1.1" 200 None
+28-06-2018 12:21:18 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:18 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:18 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-20.html HTTP/1.1" 200 None
+28-06-2018 12:21:19 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:19 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-21.html HTTP/1.1" 200 None
+28-06-2018 12:21:19 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:19 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-22.html HTTP/1.1" 200 None
+28-06-2018 12:21:19 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:19 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:19 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-23.html HTTP/1.1" 200 None
+28-06-2018 12:21:20 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:20 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-24.html HTTP/1.1" 200 None
+28-06-2018 12:21:20 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:20 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-25.html HTTP/1.1" 200 None
+28-06-2018 12:21:20 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:20 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:20 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-26.html HTTP/1.1" 200 None
+28-06-2018 12:21:20 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:21 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-27.html HTTP/1.1" 200 None
+28-06-2018 12:21:21 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:21 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-28.html HTTP/1.1" 200 None
+28-06-2018 12:21:21 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:21 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-29.html HTTP/1.1" 200 None
+28-06-2018 12:21:21 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:21 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:21 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-30.html HTTP/1.1" 200 None
+28-06-2018 12:21:22 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:22 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-31.html HTTP/1.1" 200 None
+28-06-2018 12:21:22 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:22 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-32.html HTTP/1.1" 200 None
+28-06-2018 12:21:22 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:22 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:22 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-33.html HTTP/1.1" 200 None
+28-06-2018 12:21:23 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:23 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-34.html HTTP/1.1" 200 None
+28-06-2018 12:21:23 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:23 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-35.html HTTP/1.1" 200 None
+28-06-2018 12:21:23 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:23 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:23 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-36.html HTTP/1.1" 200 None
+28-06-2018 12:21:24 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:24 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-37.html HTTP/1.1" 200 None
+28-06-2018 12:21:24 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:24 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-38.html HTTP/1.1" 200 None
+28-06-2018 12:21:24 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:24 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:24 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-39.html HTTP/1.1" 200 None
+28-06-2018 12:21:25 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:25 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-40.html HTTP/1.1" 200 None
+28-06-2018 12:21:25 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:25 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-41.html HTTP/1.1" 200 None
+28-06-2018 12:21:25 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:25 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:25 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-42.html HTTP/1.1" 200 None
+28-06-2018 12:21:26 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:26 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-43.html HTTP/1.1" 200 None
+28-06-2018 12:21:26 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:26 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-44.html HTTP/1.1" 200 None
+28-06-2018 12:21:26 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:26 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-45.html HTTP/1.1" 200 None
+28-06-2018 12:21:26 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:26 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:26 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-46.html HTTP/1.1" 200 None
+28-06-2018 12:21:27 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:27 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-47.html HTTP/1.1" 200 None
+28-06-2018 12:21:27 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:27 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-48.html HTTP/1.1" 200 None
+28-06-2018 12:21:27 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:27 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:27 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:28 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-49.html HTTP/1.1" 200 None
+28-06-2018 12:21:28 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:28 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 12:21:28 DEBUG    [connectionpool.py : 208] Starting new HTTP connection (1): books.toscrape.com
+28-06-2018 12:21:28 DEBUG    [connectionpool.py : 396] http://books.toscrape.com:80 "GET /catalogue/page-50.html HTTP/1.1" 200 None
+28-06-2018 12:21:28 DEBUG    [book_page.py : 10] parsing page with beautiful soup html parser
+28-06-2018 12:21:28 DEBUG    [book_page.py : 14] Finding books in the page using article.product_pod
+28-06-2018 13:03:10 INFO     [app.py : 13] Loading books list...
