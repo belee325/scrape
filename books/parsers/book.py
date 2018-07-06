@@ -36,7 +36,7 @@ class BookParser:
         patt = '[0-9]+\.[0-9]+'
         match = re.search(patt,self.parent.select_one(locator).string)
         price = match.group(0)
-        logger.debug('Found price: `{}`', format(price))
+        logger.debug('Found price: `{}`'.format(price))
         return price
 
     @property
